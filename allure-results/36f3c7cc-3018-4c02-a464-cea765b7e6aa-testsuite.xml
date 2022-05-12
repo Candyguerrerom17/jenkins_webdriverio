@@ -1,0 +1,209 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652289998377' stop='1652290021545'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1652289998378' status='passed' stop='1652289998380'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1652289998380' status='passed' stop='1652290000771'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652289998900' status='undefined'>
+                    <name>getElementText</name>
+                    <title>getElementText</title>
+                    <attachments>
+                        <attachment title='Request' source='f857d69b-c31f-4aae-bfed-0c477d451f91-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps>
+                        <step start='1652289999419' status='passed' stop='1652290000769'>
+                            <name>navigateTo</name>
+                            <title>navigateTo</title>
+                            <attachments>
+                                <attachment title='Request' source='e44768a3-bba9-4dfe-92f5-8a0824818340-attachment.json' type='application/json' size='55'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652290000771' status='broken' stop='1652290021540'>
+            <name>When I login with foobar and barfoo</name>
+            <title>When I login with foobar and barfoo</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652290001787' status='broken' stop='1652290021540'>
+                    <name>getElementText</name>
+                    <title>getElementText</title>
+                    <attachments>
+                        <attachment title='Request' source='39fc7295-08ab-48a2-9000-5161fad8ed91-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps>
+                        <step start='1652290001796' status='passed' stop='1652290003355'>
+                            <name>findElement</name>
+                            <title>findElement</title>
+                            <attachments>
+                                <attachment title='Request' source='f35adf22-3109-4e7b-a375-bf8d0b284d49-attachment.json' type='application/json' size='53'/>
+                                <attachment title='Response' source='ba407560-a83d-4085-a0db-b84bfec2fc44-attachment.json' type='application/json' size='2'/>
+                            </attachments>
+                            <steps>
+                                <step start='1652290002817' status='passed' stop='1652290002827'>
+                                    <name>findElement</name>
+                                    <title>findElement</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d4b471cd-4253-47cb-9840-6d41c9bada9b-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='cdd00033-ad0a-4767-bd73-21b73353f995-attachment.json' type='application/json' size='56'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652290003869' status='passed' stop='1652290005938'>
+                            <name>elementClear</name>
+                            <title>elementClear</title>
+                            <attachments>
+                                <attachment title='Request' source='df5decd2-8076-45b3-b5a3-93f5f3cd5056-attachment.json' type='application/json' size='30'/>
+                            </attachments>
+                            <steps>
+                                <step start='1652290004386' status='passed' stop='1652290005934'>
+                                    <name>findElements</name>
+                                    <title>findElements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1db2a618-e0f2-4df6-a8a2-705a8118a385-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='30e1ce55-9a56-41d6-b9ef-ed173d61212e-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652290006957' status='passed' stop='1652290017285'>
+                            <name>elementSendKeys</name>
+                            <title>elementSendKeys</title>
+                            <attachments>
+                                <attachment title='Request' source='af9c38ab-9714-4aa2-be6c-f39f0bb38314-attachment.json' type='application/json' size='50'/>
+                            </attachments>
+                            <steps>
+                                <step start='1652290006961' status='passed' stop='1652290008513'>
+                                    <name>findElements</name>
+                                    <title>findElements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='7921aa83-bce9-47d8-97e7-c651c4fa539a-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='ab2e9784-ec30-480b-97a3-00cda9dd86f4-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1652290009532' status='passed' stop='1652290011077'>
+                                    <name>findElements</name>
+                                    <title>findElements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='537e1e99-d505-40cf-a299-087fcf7841e3-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='9f4b23fa-7578-4927-b2a2-f7d3b21c9861-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1652290012110' status='passed' stop='1652290013662'>
+                                    <name>findElements</name>
+                                    <title>findElements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='206568e9-e33d-42c0-86f2-816c852ed074-attachment.json' type='application/json' size='50'/>
+                                        <attachment title='Response' source='264bb4f3-a4fe-493d-87ce-43e9a4048d9e-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1652290018295' status='passed' stop='1652290018806'>
+                            <name>findElement</name>
+                            <title>findElement</title>
+                            <attachments>
+                                <attachment title='Request' source='10a5f4a0-1522-4f6c-abfb-c12394dd4c2f-attachment.json' type='application/json' size='53'/>
+                                <attachment title='Response' source='c5a689bc-d404-4085-bede-e27e8282a0d8-attachment.json' type='application/json' size='56'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1652290019838' status='passed' stop='1652290021422'>
+                            <name>elementClear</name>
+                            <title>elementClear</title>
+                            <attachments>
+                                <attachment title='Request' source='ab9369f7-0870-4e34-b81a-c15de28841ce-attachment.json' type='application/json' size='30'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: no current window handle registered</message>
+                <stack-trace>Error: no current window handle registered
+                    at DevToolsDriver.getPageHandle (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:166:19)
+                    at DevToolsDriver.checkPendingNavigations (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:179:25)
+                    at DevToolsDriver.checkPendingNavigations (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:225:20)
+                    at async Element.wrappedCommand (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:97:13)
+                    at async Element.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\project\cucumber-wdio-migration\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\project\cucumber-wdio-migration\node_modules\webdriverio\build\middlewares.js:24:32)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652290021541' status='pending' stop='1652290021543'>
+            <name>Then I should see a flash message saying Your username is invalid!</name>
+            <title>Then I should see a flash message saying Your username is invalid!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1652290021544' status='passed' stop='1652290021545'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

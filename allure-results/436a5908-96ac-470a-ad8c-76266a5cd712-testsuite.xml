@@ -1,0 +1,168 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1652290060410' stop='1652290126160'>
+    <name>The Internet Guinea Pig Website: As a user, I can log into the secure area</name>
+    <title>The Internet Guinea Pig Website: As a user, I can log into the secure area</title>
+    <test-cases>
+        <test-case start='1652290060411' status='passed' stop='1652290060412'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1652290060412' status='passed' stop='1652290067250'>
+            <name>Given I am on the login page</name>
+            <title>Given I am on the login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652290061434' status='passed' stop='1652290067236'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='4cafc44a-506c-49b3-8557-7ea36e894ee2-attachment.json' type='application/json' size='55'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652290067251' status='passed' stop='1652290124034'>
+            <name>When I login with tomsmith and SuperSecretPassword!</name>
+            <title>When I login with tomsmith and SuperSecretPassword!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps>
+                <step start='1652290068294' status='passed' stop='1652290069330'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='ffc189d6-a50b-413c-af38-654ba6626e61-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='8b12d041-dbd9-4719-9d66-a83fa3547eee-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290070385' status='passed' stop='1652290072461'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='edbd2280-c501-47fe-a42a-885bde6ed692-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290073504' status='passed' stop='1652290085846'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='516e1405-b249-4590-b1a9-96e3274baa8f-attachment.json' type='application/json' size='52'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290086869' status='passed' stop='1652290087391'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='d29ba475-258a-4587-af49-3f2e0badf72a-attachment.json' type='application/json' size='53'/>
+                        <attachment title='Response' source='0bd451a6-2d89-404f-8be6-0ac2a1e70e2f-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290088420' status='passed' stop='1652290090485'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='34401055-b020-4dae-9b6b-648eac4ef07c-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290091526' status='passed' stop='1652290116240'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='7de3f5c7-828a-448e-9209-6b5e25e029f1-attachment.json' type='application/json' size='64'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290117271' status='passed' stop='1652290117792'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='c37059d8-ed0b-4e35-8bb2-cd042bfc4790-attachment.json' type='application/json' size='67'/>
+                        <attachment title='Response' source='834155b4-0d62-453f-9efb-7b015efe7726-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1652290118835' status='passed' stop='1652290124032'>
+                    <name>elementClick</name>
+                    <title>elementClick</title>
+                    <attachments>
+                        <attachment title='Request' source='7c133198-6688-4379-bf52-49dde7df323c-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1652290124035' status='broken' stop='1652290126155'>
+            <name>Then I should see a flash message saying You logged into a secure area!</name>
+            <title>Then I should see a flash message saying You logged into a secure area!</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: no current window handle registered</message>
+                <stack-trace>Error: no current window handle registered
+                    at DevToolsDriver.getPageHandle (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:166:19)
+                    at DevToolsDriver.checkPendingNavigations (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:179:25)
+                    at DevToolsDriver.checkPendingNavigations (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:225:20)
+                    at async DevToolsDriver.checkPendingNavigations (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:225:9)
+                    at async Browser.wrappedCommand (C:\project\cucumber-wdio-migration\node_modules\devtools\build\devtoolsdriver.js:97:13)
+                    at async Browser.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Browser.$ (C:\project\cucumber-wdio-migration\node_modules\webdriverio\build\commands\browser\$.js:91:17)
+                    at async Browser.wrapCommandFn (C:\project\cucumber-wdio-migration\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Object.executeCommandBe (C:\project\cucumber-wdio-migration\node_modules\expect-webdriverio\lib\utils.js:47:16)
+                    at async C:\project\cucumber-wdio-migration\node_modules\expect-webdriverio\lib\matchers\element\toBeExisting.js:10:24</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1652290126156' status='passed' stop='1652290126158'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-101.0.4951.54'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
